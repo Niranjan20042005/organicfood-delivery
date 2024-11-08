@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh & Organic - Farm to Door Delivery</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-green-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold text-green-600">Organic Food And Delivery</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-green-600">Home</a>
+                    <a href="#products" class="text-gray-600 hover:text-green-600">Products</a>
+                    <a href="#how-it-works" class="text-gray-600 hover:text-green-600">How It Works</a>
+                    <a href="#contact" class="text-gray-600 hover:text-green-600">Contact</a>
+                </div>
+                <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">Order Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative bg-green-600 py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Farm Fresh Organic Food</h1>
+            <p class="text-xl text-green-100 mb-8">Delivered straight to your doorstep</p>
+            <button class="bg-white text-green-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-50">
+                Start Shopping
+            </button>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="text-3xl mb-4">🌱</div>
+                    <h3 class="text-xl font-semibold mb-2">100% Organic</h3>
+                    <p class="text-gray-600">All our products are certified organic and sustainably sourced</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-3xl mb-4">🚚</div>
+                    <h3 class="text-xl font-semibold mb-2">Same Day Delivery</h3>
+                    <p class="text-gray-600">Order before 2 PM for same-day delivery to your door</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-3xl mb-4">💰</div>
+                    <h3 class="text-xl font-semibold mb-2">Best Prices</h3>
+                    <p class="text-gray-600">Direct from local farms means better prices for you</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <div id="products" class="py-16 bg-green-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Featured Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="data:image/jpeg;base64,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" width="400" height="300" alt="Organic Vegetables" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Fresh Vegetable Box</h3>
+                        <p class="text-gray-600 mb-4">Seasonal selection of fresh organic vegetables</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-green-600">$49.99</span>
+                            <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://4.imimg.com/data4/ER/NW/MY-22098906/organic-fruits.jpg" width="400" height="300" alt="Organic Fruits" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Organic Fruit Box</h3>
+                        <p class="text-gray-600 mb-4">Hand-picked seasonal organic fruits</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-green-600">$54.99</span>
+                            <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://content.dhhs.vic.gov.au/sites/default/files/fruit-and-veg_1050x600.jpg" width="400" height="300" alt="Mixed Box" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Mixed Family Box</h3>
+                        <p class="text-gray-600 mb-4">Perfect mix of fruits and vegetables</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-green-600">$79.99</span>
+                            <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <div id="how-it-works" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-3xl mb-4">1️⃣</div>
+                    <h3 class="text-lg font-semibold mb-2">Choose Your Box</h3>
+                    <p class="text-gray-600">Select from our range of organic produce boxes</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl mb-4">2️⃣</div>
+                    <h3 class="text-lg font-semibold mb-2">Customize</h3>
+                    <p class="text-gray-600">Add or remove items to suit your needs</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl mb-4">3️⃣</div>
+                    <h3 class="text-lg font-semibold mb-2">Select Delivery</h3>
+                    <p class="text-gray-600">Choose your preferred delivery time</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl mb-4">4️⃣</div>
+                    <h3 class="text-lg font-semibold mb-2">Enjoy</h3>
+                    <p class="text-gray-600">Receive fresh organic produce at your door</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="py-16 bg-green-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="max-w-lg mx-auto">
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="name">Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 rounded-lg border focus:outline-none focus:border-green-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="email">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 rounded-lg border focus:outline-none focus:border-green-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="message">Message</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-2 rounded-lg border focus:outline-none focus:border-green-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-green-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Organic Food And Delivery</h3>
+                    <p class="text-green-200">Bringing the farm to your table, one delivery at a time.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-green-200 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-green-200 hover:text-white">FAQs</a></li>
+                        <li><a href="#" class="text-green-200 hover:text-white">Delivery Areas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-green-200">
+                        <li>📧 support@organicfooddelivery.com</li>
+                        <li>📞 8367612004</li>
+                        <li>📍 24/307 Power house road, Proddatur</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-green-700 text-center text-green-200">
+                <p>&copy; 2024 Organic Food And Delivery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
